@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -82,6 +83,12 @@ public class MainActivity extends AppCompatActivity {
             currentInput = "";
             isNewOperation = false;
         }
+
+        if (value.equals(".") && currentInput.contains(".")) {
+            Toast.makeText(this, "Cannot add more than one decimal point", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         currentInput += value;
         updateDisplay();
     }
