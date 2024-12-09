@@ -71,13 +71,15 @@
 				android:backgroundTint="#62c4c3"
 				android:text="C" />
 
-			<Button
+			<ImageButton
 				android:id="@+id/deleteLastDigitButton"
 				android:layout_width="match_parent"
-				android:layout_height="match_parent"
 				android:layout_weight="1"
-				android:backgroundTint="#62c4c3"
-				android:text="Delete" />
+				android:layout_height="match_parent"
+				android:src="@drawable/delete_button" 
+				android:background="null" 
+				android:scaleType="fitCenter"
+				android:padding="8dp" />
 		</LinearLayout>
 
 		<!-- Row 2: Numbers and Operations -->
