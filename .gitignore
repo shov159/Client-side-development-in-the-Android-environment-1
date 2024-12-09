@@ -1,0 +1,73 @@
+# Ignore Android Studio specific files and folders
+/.idea/
+/.gradle/
+/local.properties
+/.cxx/
+
+# Ignore Gradle build output
+/build/
+/*.iml
+
+# Ignore log files
+*.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency directories
+**/build/
+**/out/
+
+# Ignore APKs and bundles generated
+*.apk
+*.ap_
+*.aab
+
+# Ignore signing-related files
+*.keystore
+*.jks
+
+# Ignore generated files
+/captures/
+/.externalNativeBuild/
+
+# Ignore crashlytics and fabric settings
+crashlytics.properties
+fabric.properties
+
+# Ignore NDK files
+/.externalNativeBuild/
+
+# Ignore JetBrains IDE files
+.idea/
+
+# Ignore local environment configuration
+/local.properties
+
+# Ignore test outputs
+**/build/test-results/
+**/build/outputs/apk/
+**/build/outputs/mapping/
+
+# Ignore Maven files
+**/build/intermediates/
+
+# Ignore code analysis tool outputs
+lint/reports/
+lint/intermediates/
+
+# Ignore Android Studio profiler files
+**/captures/
+**/captures/*.trace
+
+# Ignore CI/CD specific files
+fastlane/report.xml
+fastlane/preview.html
+fastlane/screenshots
+
+# Ignore backup files
+*.swp
+*.swo
+*.tmp
+*.bak
